@@ -11,7 +11,7 @@
 <?rfc sortrefs="yes"?>
 <?rfc symrefs="yes"?>
 
-<rfc ipr="trust200902" docName="draft-richardson-iab-homenet-dothome-rfc7788upd-00" category="info">
+<rfc ipr="trust200902" docName="draft-richardson-iab-homenet-dothome-rfc7788upd-00" category="std">
 
   <front>
     <title>6tisch Secure Join protocol</title>

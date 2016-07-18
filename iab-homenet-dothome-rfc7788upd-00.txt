@@ -4,7 +4,7 @@
 
 Homenet                                                    M. Richardson
 Internet-Draft                                  Sandelman Software Works
-Intended status: Informational                                 S. Woolfe
+Intended status: Standards Track                               S. Woolfe
 Expires: January 19, 2017                                 Suz World Wide
                                                            July 18, 2016
 

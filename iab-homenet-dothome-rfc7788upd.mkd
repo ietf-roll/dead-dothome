@@ -9,7 +9,7 @@ ipr: trust200902
 area: Internet
 wg: Homenet
 kw: Internet-Draft
-cat: info
+cat: std
 
 coding: us-ascii
 pi:    # can use array (if all yes) or hash here
