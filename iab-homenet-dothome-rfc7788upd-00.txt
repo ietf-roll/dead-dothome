@@ -64,7 +64,7 @@ Table of Contents
    2.  Update  . . . . . . . . . . . . . . . . . . . . . . . . . . .   2
    3.  Security Considerations . . . . . . . . . . . . . . . . . . .   2
    4.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   2
-   5.  Normative References  . . . . . . . . . . . . . . . . . . . .   2
+   5.  Normative References  . . . . . . . . . . . . . . . . . . . .   3
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   3
 
 1.  Introduction
@@ -79,18 +79,20 @@ Table of Contents
 
    Section 8 is to updated to indicate that there is no default.
    Implementations MUST NOT use ".home" as the default, and SHOULD
-   configure no implementation default TLD, and SHOULD accept a value
-   from another node.
+   configure no implementation default Network-Wide Zone.  An
+   implementation with no value SHOULD accept a value from another node.
 
-   Implementations MAY default to a value which the implementation has
-   authority over via an ICANN delegated TLD.
+   Implementations MAY default to a value which the implementator has
+   authority over via an ICANN delegated TLD, such as
+   "homenet.example.com".
 
-   Implementations MUST provide a mechansim for an end user to configure
-   the default.
+   Implementations MUST provide a mechansim for an end user to re-
+   configure the default.
 
-   On CPE routers, implementations SHOULD provide a mechanism for an
-   operator to configure the default as part of the normal provisioning
-   process (such as via TR-69).
+   On CPE edge routers, implementations SHOULD provide a mechanism for
+   an operator to configure the default as part of the normal
+   provisioning process (such as via TR-69).  The end-user configured
+   default MUST take priority.
 
 3.  Security Considerations
 
@@ -100,12 +102,10 @@ Table of Contents
 
    None.
 
-5.  Normative References
 
-   [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
-              Requirement Levels", BCP 14, RFC 2119,
-              DOI 10.17487/RFC2119, March 1997,
-              <http://www.rfc-editor.org/info/rfc2119>.
+
+
+
 
 
 
@@ -113,6 +113,13 @@ Richardson & Woolfe     Expires January 19, 2017                [Page 2]
 
 Internet-DraClarifying the Homenet Default Network-Wide Zone   July 2016
 
+
+5.  Normative References
+
+   [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
+              Requirement Levels", BCP 14, RFC 2119,
+              DOI 10.17487/RFC2119, March 1997,
+              <http://www.rfc-editor.org/info/rfc2119>.
 
    [RFC7788]  Stenberg, M., Barth, S., and P. Pfister, "Home Networking
               Control Protocol", RFC 7788, DOI 10.17487/RFC7788, April
@@ -130,13 +137,6 @@ Authors' Addresses
    Suz World Wide
 
    Email: suzworldwide@gmail.com
-
-
-
-
-
-
-
 
 
 

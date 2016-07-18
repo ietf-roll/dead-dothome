@@ -60,17 +60,18 @@ Network-Wide zone to be used with generated names.
 
 Section 8 is to updated to indicate that there is no default.
 Implementations MUST NOT use ".home" as the default, and SHOULD configure no
-implementation default TLD, and SHOULD accept a value from another node.
+implementation default Network-Wide Zone.  An implementation with no
+value SHOULD accept a value from another node.
 
-Implementations MAY default to a value which the implementation has
-authority over via an ICANN delegated TLD.
+Implementations MAY default to a value which the implementator has
+authority over via an ICANN delegated TLD, such as "homenet.example.com".
 
-Implementations MUST provide a mechansim for an end user to configure the
+Implementations MUST provide a mechansim for an end user to re-configure the
 default.
 
-On CPE routers, implementations SHOULD provide a mechanism for an operator
+On CPE edge routers, implementations SHOULD provide a mechanism for an operator
 to configure the default as part of the normal provisioning process (such as
-via TR-69).
+via TR-69).  The end-user configured default MUST take priority.
 
 # Security Considerations
 
