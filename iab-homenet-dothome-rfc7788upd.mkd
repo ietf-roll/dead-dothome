@@ -28,9 +28,9 @@ author:
         email: mcr+ietf@sandelman.ca
       -
         ins: S. Woolfe
-        name: Suzanne Wolfe
-        org: Wolfe
-        email: suzanne@woolfe.com
+        name: Suzanne Woolf
+        org: Suz World Wide
+        email: suzworldwide@gmail.com
 
 
 normative:

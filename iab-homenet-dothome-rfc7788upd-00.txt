@@ -5,7 +5,7 @@
 Homenet                                                    M. Richardson
 Internet-Draft                                  Sandelman Software Works
 Intended status: Informational                                 S. Woolfe
-Expires: January 19, 2017                                          Wolfe
+Expires: January 19, 2017                                 Suz World Wide
                                                            July 18, 2016
 
 
@@ -126,10 +126,10 @@ Authors' Addresses
    Email: mcr+ietf@sandelman.ca
 
 
-   Suzanne Wolfe
-   Wolfe
+   Suzanne Woolf
+   Suz World Wide
 
-   Email: suzanne@woolfe.com
+   Email: suzworldwide@gmail.com
 
 
 
