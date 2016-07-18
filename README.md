@@ -1,4 +1,7 @@
-# 6tisch-secure-join
-6tisch WG Secure Join work
+# Homenet
+Homenet revise RFC7788
 
-This is the repository for an www.ietf.org Internet Draft in the 6tisch WG http://datatracker.ietf.org/wg/6tisch
+This is the repository for an www.ietf.org Internet Draft
+in the Homenet WG http://datatracker.ietf.org/wg/homenet
+
+

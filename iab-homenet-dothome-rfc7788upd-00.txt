@@ -1,0 +1,168 @@
+
+
+
+
+Homenet                                                    M. Richardson
+Internet-Draft                                  Sandelman Software Works
+Intended status: Informational                                 S. Woolfe
+Expires: January 19, 2017                                          Wolfe
+                                                           July 18, 2016
+
+
+                      6tisch Secure Join protocol
+           draft-richardson-iab-homenet-dothome-rfc7788upd-00
+
+Abstract
+
+   This document updates RFC7788 to clarify the default network-wide
+   zone.
+
+Status of This Memo
+
+   This Internet-Draft is submitted in full conformance with the
+   provisions of BCP 78 and BCP 79.
+
+   Internet-Drafts are working documents of the Internet Engineering
+   Task Force (IETF).  Note that other groups may also distribute
+   working documents as Internet-Drafts.  The list of current Internet-
+   Drafts is at http://datatracker.ietf.org/drafts/current/.
+
+   Internet-Drafts are draft documents valid for a maximum of six months
+   and may be updated, replaced, or obsoleted by other documents at any
+   time.  It is inappropriate to use Internet-Drafts as reference
+   material or to cite them other than as "work in progress."
+
+   This Internet-Draft will expire on January 19, 2017.
+
+Copyright Notice
+
+   Copyright (c) 2016 IETF Trust and the persons identified as the
+   document authors.  All rights reserved.
+
+   This document is subject to BCP 78 and the IETF Trust's Legal
+   Provisions Relating to IETF Documents
+   (http://trustee.ietf.org/license-info) in effect on the date of
+   publication of this document.  Please review these documents
+   carefully, as they describe your rights and restrictions with respect
+   to this document.  Code Components extracted from this document must
+   include Simplified BSD License text as described in Section 4.e of
+   the Trust Legal Provisions and are provided without warranty as
+   described in the Simplified BSD License.
+
+
+
+
+
+Richardson & Woolfe     Expires January 19, 2017                [Page 1]
+
+Internet-Draft         6tisch Secure Join protocol             July 2016
+
+
+Table of Contents
+
+   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
+   2.  Update  . . . . . . . . . . . . . . . . . . . . . . . . . . .   2
+   3.  Security Considerations . . . . . . . . . . . . . . . . . . .   2
+   4.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   2
+   5.  Normative References  . . . . . . . . . . . . . . . . . . . .   2
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   3
+
+1.  Introduction
+
+   [RFC7788] was published without sufficient DNS review.  It
+   incorrectly appears to reserve the ".home" TLD.
+
+2.  Update
+
+   Section 8 of [RFC7788] incorrectly states that ".home" is the default
+   Network-Wide zone to be used with generated names.
+
+   Section 8 is to updated to indicate that there is no default.
+   Implementations MUST NOT use ".home" as the default, and SHOULD
+   configure no implementation default TLD, and SHOULD accept a value
+   from another node.
+
+   Implementations MAY default to a value which the implementation has
+   authority over via an ICANN delegated TLD.
+
+   Implementations MUST provide a mechansim for an end user to configure
+   the default.
+
+   On CPE routers, implementations SHOULD provide a mechanism for an
+   operator to configure the default as part of the normal provisioning
+   process (such as via TR-69).
+
+3.  Security Considerations
+
+   None.
+
+4.  IANA Considerations
+
+   None.
+
+5.  Normative References
+
+   [RFC2119]  Bradner, S., "Key words for use in RFCs to Indicate
+              Requirement Levels", BCP 14, RFC 2119,
+              DOI 10.17487/RFC2119, March 1997,
+              <http://www.rfc-editor.org/info/rfc2119>.
+
+
+
+Richardson & Woolfe     Expires January 19, 2017                [Page 2]
+
+Internet-Draft         6tisch Secure Join protocol             July 2016
+
+
+   [RFC7788]  Stenberg, M., Barth, S., and P. Pfister, "Home Networking
+              Control Protocol", RFC 7788, DOI 10.17487/RFC7788, April
+              2016, <http://www.rfc-editor.org/info/rfc7788>.
+
+Authors' Addresses
+
+   Michael Richardson
+   Sandelman Software Works
+
+   Email: mcr+ietf@sandelman.ca
+
+
+   Suzanne Wolfe
+   Wolfe
+
+   Email: suzanne@woolfe.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Richardson & Woolfe     Expires January 19, 2017                [Page 3]

@@ -1,0 +1,84 @@
+---
+title: 6tisch Secure Join protocol
+# abbrev: 6tisch-Secure-Join
+docname: draft-richardson-iab-homenet-dothome-rfc7788upd-00
+
+# stand_alone: true
+
+ipr: trust200902
+area: Internet
+wg: Homenet
+kw: Internet-Draft
+cat: info
+
+coding: us-ascii
+pi:    # can use array (if all yes) or hash here
+#  - toc
+#  - sortrefs
+#  - symrefs
+  toc: yes
+  sortrefs:   # defaults to yes
+  symrefs: yes
+
+author:
+      -
+        ins: M. Richardson
+        name: Michael Richardson
+        org: Sandelman Software Works
+        email: mcr+ietf@sandelman.ca
+      -
+        ins: S. Woolfe
+        name: Suzanne Wolfe
+        org: Wolfe
+        email: suzanne@woolfe.com
+
+
+normative:
+
+  RFC2119:
+  RFC7788:
+
+informative:
+
+#  RFC5389:
+
+--- abstract
+
+This document updates RFC7788 to clarify the default network-wide zone.
+
+--- middle
+
+# Introduction        {#problems}
+
+{{!RFC7788}} was published without sufficient DNS review. It incorrectly
+appears to reserve the ".home" TLD.
+
+# Update
+
+Section 8 of {{!RFC7788}} incorrectly states that ".home" is the default
+Network-Wide zone to be used with generated names.
+
+Section 8 is to updated to indicate that there is no default.
+Implementations MUST NOT use ".home" as the default, and SHOULD configure no
+implementation default TLD, and SHOULD accept a value from another node.
+
+Implementations MAY default to a value which the implementation has
+authority over via an ICANN delegated TLD.
+
+Implementations MUST provide a mechansim for an end user to configure the
+default.
+
+On CPE routers, implementations SHOULD provide a mechanism for an operator
+to configure the default as part of the normal provisioning process (such as
+via TR-69).
+
+# Security Considerations
+
+None.
+
+# IANA Considerations
+
+None.
+
+--- back
+

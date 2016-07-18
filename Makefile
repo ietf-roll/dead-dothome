@@ -1,4 +1,4 @@
-DRAFT:=dtsecurity-secure-join
+DRAFT:=iab-homenet-dothome-rfc7788upd
 VERSION:=$(shell ./getver ${DRAFT}.mkd )
 
 ${DRAFT}-${VERSION}.txt: ${DRAFT}.txt
