@@ -14,7 +14,7 @@
 <rfc ipr="trust200902" docName="draft-richardson-iab-homenet-dothome-rfc7788upd-00" category="std">
 
   <front>
-    <title>6tisch Secure Join protocol</title>
+    <title>Clarifying the Homenet Default Network-Wide Zone</title>
 
     <author initials="M." surname="Richardson" fullname="Michael Richardson">
       <organization>Sandelman Software Works</organization>

@@ -1,5 +1,5 @@
 ---
-title: 6tisch Secure Join protocol
+title: Clarifying the Homenet Default Network-Wide Zone
 # abbrev: 6tisch-Secure-Join
 docname: draft-richardson-iab-homenet-dothome-rfc7788upd-00
 

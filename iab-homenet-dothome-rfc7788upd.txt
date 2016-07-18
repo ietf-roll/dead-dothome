@@ -9,7 +9,7 @@ Expires: January 19, 2017                                 Suz World Wide
                                                            July 18, 2016
 
 
-                      6tisch Secure Join protocol
+            Clarifying the Homenet Default Network-Wide Zone
            draft-richardson-iab-homenet-dothome-rfc7788upd-00
 
 Abstract
@@ -55,7 +55,7 @@ Copyright Notice
 
 Richardson & Woolfe     Expires January 19, 2017                [Page 1]
 
-Internet-Draft         6tisch Secure Join protocol             July 2016
+Internet-DraClarifying the Homenet Default Network-Wide Zone   July 2016
 
 
 Table of Contents
@@ -111,7 +111,7 @@ Table of Contents
 
 Richardson & Woolfe     Expires January 19, 2017                [Page 2]
 
-Internet-Draft         6tisch Secure Join protocol             July 2016
+Internet-DraClarifying the Homenet Default Network-Wide Zone   July 2016
 
 
    [RFC7788]  Stenberg, M., Barth, S., and P. Pfister, "Home Networking
